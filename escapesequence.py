@@ -1,6 +1,0 @@
-print('Hello \'world\' World')
-print('I\' am who')
-print("Line A\nLine B")
-print("this\tTab")
-print("backslash at the end of the line \\")
-print("backs\bpace")
