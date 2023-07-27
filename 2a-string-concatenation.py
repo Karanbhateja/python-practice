@@ -10,8 +10,9 @@ print(full_name)
 # But you can do
 
 print(first_name + "3" + str(4) ) # Because now 3 is not a number, it is a string
-
 # You can also write str(3) instead of "3"
 
 print(first_name*3)
 # You can multiply a string to print it multiple times.
+
+# NOTE - Only string can be added (Concatenated) to a string integer cannot be concatenatted to a string
