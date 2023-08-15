@@ -35,3 +35,23 @@ Feel free to explore the repository and browse through the different Python file
 
 ```bash
 git clone https://github.com/your-username/python-learning-repo.git
+
+
+To run a specific Python file, navigate to its directory and execute the file using the Python interpreter:
+
+python filename.py
+
+## Contributing
+
+I'm maintaining this repository for my personal use, so I'm not actively seeking contributions. However, if you find any issues or errors in the code or explanations, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+![Python Image](python-image.png)
+
+Happy learning and coding! 🚀
+
