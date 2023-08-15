@@ -1,3 +1,5 @@
+![Python Image](/images/Frame 4.png)
+
 # Python Learning Repository
 
 Welcome to my Python Learning Repository! 🐍
@@ -47,8 +49,6 @@ I'm maintaining this repository for my personal use, so I'm not actively seeking
 
 This project is licensed under the [MIT License](LICENSE).
 
-
-![Python Image](python-image.png)
 
 Happy learning and coding! 🚀
 
