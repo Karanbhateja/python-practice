@@ -19,7 +19,7 @@ print(colors)  # Output: ["red", "blue", "green", "yellow"]
 
 # Remove: Removes the first occurrence of a value
 animals = ["cat", "dog", "elephant", "dog"]
-animals.remove("dog")
+animals.remove("dog")           #  It is used when we don't know the position of th3 element to be deleted
 print(animals)  # Output: ["cat", "elephant", "dog"]
 
 # Pop: Removes an element at a specific index and returns its value
@@ -32,6 +32,7 @@ print(languages)          # Output: ["Python", "Java", "Ruby"]
 numbers.clear()
 print(numbers)  # Output: []
 
-# Deleting a List
+# Deleting a List or Element through delete operator
+del colors[1]
 del colors
 # print(colors)   # This line will raise an error since 'colors' no longer exists
