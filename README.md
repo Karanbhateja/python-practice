@@ -1,4 +1,4 @@
-![Python Image](/images/Frame 4.png)
+![Python Image](/images/"Frame 4.png")
 
 # Python Learning Repository
 
