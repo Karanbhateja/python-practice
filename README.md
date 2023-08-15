@@ -35,9 +35,7 @@ Feel free to explore the repository and browse through the different Python file
 
 ```bash
 git clone https://github.com/your-username/python-learning-repo.git
----
 
-```bash
 python filename.py
 ```
 
