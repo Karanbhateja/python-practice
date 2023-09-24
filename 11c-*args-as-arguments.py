@@ -9,4 +9,4 @@ l = [1,2,3,4] # Now we want to use this list as argument to the multiply functio
 
 print(multiply(*l))
 
-# We can use * to unpack the list and pass its elements to the function
+# We can use * to unpack the list/ another tupple and pass its elements to the function
