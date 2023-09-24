@@ -21,4 +21,4 @@ print(union_set) # Output - {1,2,3,4,5,6}
 
 # Intersection
 intersection_set = s1 & s2 # For intersection we use & 
-print(intersection_set)
+print(intersection_set) 
