@@ -5,4 +5,9 @@ for i in names:
   print(f"{pos}---> {i}")
   pos += 1
 
-# Continue...............
+# Now doing same thing with enumerate function
+for pos, name in enumerate(names):
+  print(f"{pos}--->{name}")
+
+# ----------------------PRACTICE-------------------------
+
