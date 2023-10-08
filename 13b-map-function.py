@@ -9,16 +9,18 @@ def square(x):
 # Create a list of numbers
 numbers = [1, 2, 3, 4, 5]
 
-# Using the map() function to square each number in the list
-squared_numbers = map(square, numbers)
+# Now suppose we want the square function to be applied on the every element of the list and add them in new list we can do it by - 
+sq_list= [ square(numbers[0]),
+square(numbers[1]),
+square(numbers[2]) ] # And so on..... 
 
-# The result is a map object. To see the squared numbers, convert it to a list
-squared_numbers_list = list(squared_numbers)
+# But we can do this with map function in one line, Using the map() function to square each number in the list-
+# map function returns map object and we cannot print that object directly so we have to store it in a list or tupple
+squared_numbers_list = list(map(square, numbers))
+# map(Name of the function without () , List name) , The map() function takes two arguments: the first argument is the function you want to apply to each item, and the second argument is the iterable you want to process.
 
 # Printing the squared numbers
 print(squared_numbers_list)
-
-# The map() function takes two arguments: the first argument is the function you want to apply to each item, and the second argument is the iterable you want to process.
 
 # You can also use lambda functions with map() for simple operations:
 
