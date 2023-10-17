@@ -23,4 +23,10 @@ print(name.title())
 # count() Method
 # Count method counts a particular character in a string, you can write the character inside ("") that you wnat count, it is case sensitive.
 
-print(name.count("o"))
+print(name.count("o")) 
+
+# isUpper() and isLower() Function
+#  When a character is passed in isUpper() Function then it tells that is a character is in Upper case or not by returning True or False
+# When a character is passed in isLower() Function then it tells that is a character is in lower case or not by returning True or False
+print(name[0],isUpper())  # This will return True, as M is in Upper case in Mr Robot
+print(name[1],isLower())  # This will return True, as r is in Lower case in Mr Robot
