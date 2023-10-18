@@ -21,3 +21,13 @@ var()  # Executing Wrapper function
         #          This is function 1
 
 # We use @ for decorators
+# @ is a syntactic sugar in pytho it makes it easier to read the code and for decorators we use @, here is an example
+
+@decorator_function
+def func3():
+  print("This is function 3")
+
+# Now instead of storing execution (wrapper function) of decorator function in a variable and then executing that variable, we used @decorator_function just before defining the function
+# Now we can directly execute func3 and it will be executed with the decorator 
+
+func3()
